@@ -51,7 +51,7 @@ return (
 
   <Row style= {{borderColor:"black", marginRight:"50px", marginLeft:"50px", marginBottom:"0px", paddingRight:"50px", paddingLeft:"50px", borderRadius:"100px"}}>
     <Col>
-    <div class="boxa">
+    <div class="boxa" style={{marginBottom:"30px"}}>
         <p1 style={{background:'white'}}>
           Número de posts
         </p1>

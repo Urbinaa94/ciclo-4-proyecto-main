@@ -3,6 +3,7 @@ body #Home.jsx{background-color:white!important;}
 
 body{
   background-color: #e5d3ec;
+  margin: 10px;
 }
 
 
@@ -20,7 +21,7 @@ body{
       background-color: white;
       border: 1px solid black;
       margin: 0px;
-      margin-bottom: 600;
+      margin-bottom: 15;
       padding: 15px;
       border-radius: 100px;
     }
@@ -36,7 +37,7 @@ body{
       border-radius: 100px;
       border: 1px solid black;
       overflow: hidden;
-      margin-top: 100px;
+      margin-top: 10px;
     }
 
     p2{
