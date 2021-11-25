@@ -9,6 +9,7 @@ import { BsChat } from "react-icons/bs";
 import { BsFillBookmarkHeartFill } from "react-icons/bs";
 import {BsPersonCircle} from "react-icons/bs";
 import '../views/LoguedHome.css';
+import { Block } from '@mui/icons-material';
 //import '/Ciclo 4/Trueque Mental/ciclo-4-proyecto-main/src/views/LoguedHome.css';
 //import './LoguedHome.css';
 //import '../LoguedHome.css';
@@ -50,19 +51,23 @@ return (
 
   <Row style= {{borderColor:"black", marginRight:"50px", marginLeft:"50px", marginBottom:"0px", paddingRight:"50px", paddingLeft:"50px", borderRadius:"100px"}}>
     <Col>
-      <p style={{background:'white'}}>
-      Número de posts
-      </p>
+    <div class="boxa">
+        <p1 style={{background:'white'}}>
+          Número de posts
+        </p1>
+    </div>
     </Col>
   </Row>
   
-  <Row  style= {{borderColor:"black", marginRight:"50px", marginLeft:"50px", padding:"50px", borderRadius:"100px"}}>
-    <Col style={{background: 'white'}}>
-        <p style={{textAlign:'right'}}>
+
+  <Row>
+    <Col>
+    <div class="external"><div class="box1">
+        <p2 style={{textAlign:'right'}}>
         widget hora de publicación
-        </p>
+        </p2>
         <p style={{color:'blue'}}>
-        <BsPersonCircle></BsPersonCircle> Posteado por (usuario):
+          <BsPersonCircle style={{fontSize:"lg"}}></BsPersonCircle> Posteado por (usuario):
         </p>
         <p>
         Quiero aprender ():
@@ -72,15 +77,19 @@ return (
         </p> 
         <p style={{textAlign:'right'}}>
         <Button variant="warning">Ver más</Button>{''}
+          <l>         </l>
             <Button variant="secondary">
                 <BsFillBookmarkHeartFill></BsFillBookmarkHeartFill>
                 favorito
             </Button>
+            <l>         </l>
             <Button variant="secondary">
             <BsChat></BsChat>
             </Button>
         </p>
+        </div></div>
     </Col>
+    
   </Row>
 </Container>
 );

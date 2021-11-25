@@ -1,24 +1,44 @@
 
-body #page1{background-color:white!important;}
+body #Home.jsx{background-color:white!important;}
 
 body{
   background-color: #e5d3ec;
 }
 
-h1 {
+
+
+  h1 {
     color:black;
     background-color: white;
+    padding: 50px;
   }
   
-  .parrafosLoguedHome
+  
+ 
+    p1 {
+      color:black;
+      background-color: white;
+      border: 1px solid black;
+      margin: 0px;
+      margin-bottom: 600;
+      padding: 15px;
+      border-radius: 100px;
+    }
 
-  p {
-    color:black;
-    background-color: white;
-    border: 1px solid black;
-    margin: 50px;
-    padding: 50px;
-    border-radius: 100px;
-  }
 
 
+
+      
+    .box1{  
+      color:black;
+      padding: 50px;
+      background-color: white;
+      border-radius: 100px;
+      border: 1px solid black;
+      overflow: hidden;
+      margin-top: 100px;
+    }
+
+    p2{
+      text-align: right;
+    }
