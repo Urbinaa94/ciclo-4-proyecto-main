@@ -41,5 +41,16 @@ body{
     }
 
     p2{
+      font-weight: bold;
       text-align: right;
+      justify-content: right;
+      align-items: end;
+      align-content: end;
+      align-self: end;
     }
+
+    .divp3{
+      font-size:large;
+    }
+
+    

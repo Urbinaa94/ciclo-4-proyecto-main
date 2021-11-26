@@ -63,12 +63,16 @@ return (
   <Row>
     <Col>
     <div class="external"><div class="box1">
-        <p2 style={{textAlign:'right'}}>
+        <p2>
         widget hora de publicación
         </p2>
-        <p style={{color:'blue'}}>
-          <BsPersonCircle style={{fontSize:"lg"}}></BsPersonCircle> Posteado por (usuario):
+        <p>
         </p>
+        <div class="divp3">
+        <p3 style={{color:'blue', fontSize:"lg"}}>
+          <BsPersonCircle></BsPersonCircle> Posteado por (usuario):
+        </p3>
+        </div>
         <p>
         Quiero aprender ():
         </p>
